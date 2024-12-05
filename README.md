@@ -1,2 +1,6 @@
-# Postgresql_Projects
-Welcome to the postgresql_projects repository, a comprehensive collection of PostgreSQL-based projects designed to enhance your SQL skills and provide hands-on experience with real-world database management scenarios. This repository covers a wide range of use cases, from simple queries to complex database operations.
+
+**Audit with Triggers** is a PostgreSQL project that demonstrates the use of triggers and audit logs to track changes made to an `employees` table. The project includes:
+- Creating an `employees` table and an `employee_audit` table for logging operations.
+- Using a sequence to generate unique audit IDs.
+- Implementing triggers to capture `INSERT`, `UPDATE`, and `DELETE` actions.
+- Recording changes such as salary updates, department changes, and user operations for transparent auditing.
